@@ -1,0 +1,22 @@
+{
+  "name": "greetings-webapp",
+  "version": "18",
+  "description": "**Greetings Webpage**",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.7",
+    "express-handlebars": "^7.1.2",
+    "mocha": "^10.2.0"
+  }
+}

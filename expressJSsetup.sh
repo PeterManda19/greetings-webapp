@@ -17,6 +17,9 @@ npm install express --save
 # Install Mocha
 npm install mocha --save
 
+# Install Chai
+npm install chai --save
+
 # Install Express Handlebars
 npm install express-handlebars --save
 
@@ -29,7 +32,7 @@ mkdir test
 # Create the views folder and home.handlebars template
 mkdir views
 echo "<h1>This is my home page</h1>" > views/home.handlebars
-
+..
 # Create the layouts folder and main.handlebars file
 mkdir views/layouts
 echo "{{{body}}}" > views/layouts/main.handlebars

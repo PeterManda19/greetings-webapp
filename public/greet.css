@@ -1,0 +1,119 @@
+/* Mobile-first responsive design */
+@media (min-width: 768px) {
+    /* Styles for tablets and larger screens */
+    input[type="text"] {
+        /* Additional styles for input field on tablets and larger screens */
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+      
+    button {
+        /* Additional styles for button on tablets and larger screens */
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+      
+    .container {
+        /* Additional styles for container on tablets and larger screens */
+        float: none;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aquamarine;
+    }
+}
+  
+/* Setting element appearances */
+input[type="text"] {
+/* Styles for the input field */
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+/* Styles for the button */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Box model */
+.element {
+    margin: 10px; /* Add space around elements */
+    padding: 10px; /* Add internal spacing */
+    border: 10px solid #000; /* Add borders */
+    display: flex;
+    flex-direction: column;
+}
+
+.language-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+  
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+  
+.greeting-section {
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+  
+.greet-count-section {
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    background-color: #e76f51
+}  
+
+/* Define colors for sections */
+/* .greeting-section {
+    background-color: #e76f51;
+    border: 1px solid #000;
+}
+
+.greet-count-section {
+    background-color: #f4a261;
+    border: 1px solid #000;
+} */
+
+.display-section {
+    background-color: #e9c46a;
+}
+
+/* Page layout using floats */
+.container {
+    width: 50%; /* Adjust the width as needed */
+    display: flex; /* Add flexbox display */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center align elements horizontally */
+    background-color: #2a9d8f;
+}
+
+.h1{
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 10vh; /* Adjust the height as needed */
+}
+
+.center-div {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  

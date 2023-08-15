@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting</title>
+    <link rel="stylesheet" href="/public/greet.css">
+</head>
+<body>
+    <h1 class="h1">Greeting</h1>
+    <div class="container center-div">
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <div class="language-section">
+            <label><input type="radio" name="language" value="zulu" checked> IsiZulu</label>
+            <label><input type="radio" name="language" value="xhosa"> IsiXhosa</label>
+            <label><input type="radio" name="language" value="sepedi"> Sepedi</label>
+        </div>
+        <div class="button-section">
+            <button id="greetButton">Greet me</button>
+        </div>
+        <div class="button-section">
+          <button id="resetButton">Reset</button>
+        </div>
+        <div class="greeting-section">
+            <span id="greetingText"></span>
+        </div>
+        <div class="greet-count-section">
+            <div class="greet-count-widget">
+                <span id="totalGreetCountText">Total Greetings: 0</span>
+            </div>
+        </div>
+        <div class="display-section">
+          <span id="greetingDisplay">Greeting Display</span>
+        </div>
+    </div>
+    
+</body>
+</html>
